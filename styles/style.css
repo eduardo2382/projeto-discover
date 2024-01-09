@@ -32,11 +32,15 @@
 }
 
 body{
+  display: flex;
+  justify-content: center;
   padding-top: 56px;
   background: no-repeat var(--bg) top center/cover;
 }
 
 main {
+  max-width: 588px;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
